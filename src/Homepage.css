@@ -1,0 +1,12 @@
+.homepage{
+    display: flex; /*creating flexible disply 20% for Nav 80% for Time*/
+    flex-direction: row;
+}
+/****20% for Nav*****/
+.homepage__nav {
+    flex: 0.2;
+}
+/****80% for Time*****/
+.homepage__timeline {
+    flex: 0.8;
+}
